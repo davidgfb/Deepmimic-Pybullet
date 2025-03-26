@@ -4,7 +4,7 @@ conda create -n ent3.7.16 python=3.7.16
 conda activate ent3.7.16  
 pip install requirements.txt  
 
-___init___.py > registry: #.env_specs  
+_init_.py > registry: #.env_specs  
 
 python -m pybullet_envs.deep_mimic.testrl --arg_file run_humanoid3d_backflip_args.txt  
 run_humanoid3d_jump_args.txt  
